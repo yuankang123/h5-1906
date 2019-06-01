@@ -1,0 +1,250 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,dt,form,fieldset,legend,input,textarea,select{margin:0;padding:0;} 
+body{font:12px "微软雅黑","Arial Narrow",HELVETICA;}
+a{color:#333;text-decoration:none;} 
+em{font-style:normal;}
+li{list-style:none;}
+img{border:0;vertical-align:middle;} 
+
+
+
+/*header*/
+header{
+    width:100%;
+    height: 78px;
+    border-bottom: 1px solid #DBDBDB;
+}
+.hend{
+    width:980px;
+    height:78px;
+    margin:0 auto;
+}
+.hend_inner{
+    width:330px;
+    height:78px;
+    float:left;
+}
+.hend_inner  img{
+    display: block;
+    width:137px;
+    height:47px;
+    padding-top:15px;
+    float:left;
+}
+.hend_inner h3{
+    float:left;
+    margin-left: 10px;
+    margin-top: 38px;
+    padding: 0 14px;
+    height: 24px;
+    line-height: 24px;
+    color: #666;
+    font-size: 18px;
+    border-left: 1px solid #C9C9C9;
+}
+.hend_right{
+    width:190px;
+    height:78px;
+    float: right;
+}
+.hend_right>span{
+    color:#666;
+    font-size:12px;
+    float:left;
+    padding-top:35px;
+}
+.hend_right .btn{
+    float:right;
+    margin:25px 10px 0 0;
+    width:64px;
+    height:32px;
+    color:#666;
+    font-size:12px;
+    background: #fff;
+    border:1px solid #ccc;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.nav{
+    width:100%;
+    height:20px;
+}
+.nav_re{
+    width:100%;
+    height:20px;
+    background: url(../img/reg.png) no-repeat center top;
+}
+
+/* section */
+section{
+    width:100%;
+    height:440px;
+    background: #F5FBFD;
+}
+.list{
+    width: 962px;
+    margin: 0 auto;
+    
+}
+.logo{
+    width: 623px;
+    height: 337px;
+    background:url(../img/yuan.png) no-repeat; 
+    float: left;
+    margin-top: 49px;
+}
+.list_right{
+    float: right;
+    position: relative;
+    margin-top: 30px;
+    padding: 20px 14px;
+    width: 280px;
+    min-height: 230px;
+    border: 1px solid #eee;
+    background: #fff;
+}
+.title{
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #666;
+}
+
+.login_right .pop{
+    display: block;
+    text-align: right;
+}
+.login_right .pop a{
+    font-size:12px;
+    color:#666;
+}
+.login_right .pop a:hover{
+    color:#1B66C7;
+    text-decoration: underline;
+}
+.right_inner{
+    height:230px;
+    border-bottom:1px solid #ddd;
+}
+.put{
+    width:230px;
+    padding:12px 10px 12px 38px;
+    border:1px solid #ddd;
+    font-size:14px;
+    color:#666;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+.right_pass{
+    height:15px;
+    margin-bottom: 10px;
+    float:left;
+}
+.right_pass label{
+    display: inline-block;
+    color:#666;
+    font-size:12px;
+    margin-left:5px;
+}
+.right_pass a{
+    display: inline-block;
+    color:#1B66C7;
+    font-size:12px;
+    margin-left:110px;
+}
+.right_pass a:hover{
+    text-decoration: underline;
+}
+.bon{
+    width:280px;
+    height:48px;
+    background: #FA6790;
+    border:1px solid #FA6790;
+    border-radius:3px;
+    cursor: pointer;
+    color:#fff;
+    font-size:16px;
+    font-weight: bold;
+    margin-top:20px;
+    cursor: pointer;
+}
+
+.right_footer>p{
+    font-size:12px;
+    color:#666;
+    padding-top:15px;
+}
+.no{
+    float:left;
+}
+.no>li{
+    width:40px;
+    float:left;
+}
+.no li:nth-child(1) a{
+    background-position: -88px 0;
+}
+.no li:nth-child(2) a{
+    background-position: -64px 0;
+}
+.no li:nth-child(3) a{
+    background-position: -143px -100px;
+}
+.no a{
+    display: block;
+    width:0;
+    height:24px;
+    margin-top:15px;
+    padding-left:24px;
+    background: url(../img/pass.png) no-repeat;
+    background-repeat: no-repeat;
+}
+
+/* footer */
+footer{
+    border-top: 5px solid #DBDBDB;
+    padding: 40px 0 20px;
+}
+.footer_re{
+    width: 980px;
+    margin: 0 auto;
+}
+.footer_inner{
+    color: #666;
+    margin-left:150px;
+}
+.footer_inner li{
+    float:left;
+}
+.footer_inner a{
+    display: inline-block;
+    color: #666;
+    cursor: pointer;
+}
+.footer_inner a:hover{
+    text-decoration: underline;
+}
+.footer_inner span{
+    display: inline-block;
+    margin: 0 12px;
+}
+.footer_inner i{
+    font-style:normal;
+}
+.ban{
+    color:#FE668F;
+    cursor: pointer;
+}
+.footer_don{
+    line-height: 40px;
+    margin-top: 27px;
+    text-align: center;
+}
+.footer_don a{
+     color: #999;
+}
+.footer_don span{
+    margin:0 5px;
+    color: #999;
+}
+

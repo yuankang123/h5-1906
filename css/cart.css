@@ -1,0 +1,367 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,dt,form,fieldset,legend,input,textarea,select{margin:0;padding:0;} 
+body{font:12px "微软雅黑","Arial Narrow",HELVETICA;}
+a{color:#333;text-decoration:none;} 
+em{font-style:normal;}
+li{list-style:none;}
+img{border:0;vertical-align:middle;} 
+
+
+/* header */
+header{
+    height: 28px;
+    line-height: 28px;
+    border-bottom: 1px solid #DFDFDF;
+    z-index: 100;
+}
+.cart{
+    width: 980px;
+    margin: 0 auto;
+}
+.warp{
+    width: 450px;
+    float:left;
+}
+.warp span{
+    font-size:14px;
+}
+.warp a{
+    font-size:12px;
+    color: #73ABC9;
+    cursor: pointer;
+}
+.warp a:hover{
+    text-decoration: underline;
+}
+.cart_re{
+    float:right;
+}
+.cart_re li{
+    display: block;
+    position: relative;
+    float: left;
+    border-left:1px solid #999;
+}
+.cart_re li:nth-child(1){
+    border:0;
+}
+.cart_re li .A{
+    margin: 0 20px;
+    color: #73ABC9;
+    cursor: pointer;
+}
+.cart_re li .A:hover{
+    text-decoration: underline;
+}
+.cart_re li:nth-child(2) .A:hover{
+    color:#FF6581;
+    text-decoration: none;
+}
+.cart_re li:nth-child(2) .A span{
+    display: inline-block;
+    width:0;
+    height:0;
+    border:3px solid #666;
+    border-color:#666 transparent transparent transparent;
+}
+.indent{
+    display: none;
+    position: absolute;
+    top: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #f0f0f0;
+    background: #fff;
+    z-index: 200;
+}
+.indent a{
+    display: block;
+    width: 102px;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 11px;
+    color: #666;
+    background: #fff;
+    cursor: pointer;
+}
+.indent a:hover{
+    color: #73ABC9;
+}
+.cart_re li:nth-child(2):hover .indent{
+    display: block;
+}
+
+
+section{
+    width: 980px;
+    margin: 0 auto;
+    color: #666;
+    padding-bottom: 40px;
+    padding-top: 15px;
+}
+.box{
+    width: 964px;
+    margin: 0 auto;
+    height:62px;
+}
+.logo{
+    float: left;
+    margin-top: 22px;
+}
+.logo_right{
+    float: right;
+    margin-top: 26px;
+}
+.logo_right li{
+    position: relative;
+    float: left;
+    color: #ccc;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 27px;
+}
+.right{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: 10px solid #ccc;
+    border-radius: 10px;
+    color: #fff;
+}
+.right span{
+    position: absolute;
+    top: -12px;
+    left: -4px;
+}
+.text{
+    position: relative;
+}
+.LI{
+    width: 61px;
+    height: 2px;
+    background-color: #ccc;
+    margin: 9px 15px;
+}
+.left{
+    border-color: #ff4883;
+}
+.lil{
+    color: #ff4883;
+}
+
+.table{
+    border-top: 1px solid #F0F0F0;
+    border-bottom: 1px solid #F0F0F0;
+    width: 100%;
+    height:168px;
+    text-align: center;
+}
+.tro{
+    height:45px;
+    background: #FAFAFA;
+}
+.fist{
+    width:382px;
+}
+.fist2{
+    width:122px;
+    height:45px;
+}
+.fist3{
+    width:192px;
+}
+.fist4,.fist5{
+    width:142px;
+}
+.c_img{
+    width:382px;
+    height:81px;
+}
+.c_img img{
+     display: block;
+     width:130px;
+     height:79px;
+     float:left;
+}
+.c_img .D{
+    display:block;
+    height:50px;
+    margin-right:30px;
+    cursor: pointer;
+    font-size:12px;
+}
+.c_img .D:hover{
+    text-decoration: underline;
+}
+.tr2 td:nth-child(2){
+    font-size:14px;
+    color:#999;
+}
+.tr2 td:nth-child(3) .num{
+    width:50px;
+    height:28px;
+    text-align: center;
+}
+.tr2 td:nth-child(3) button{
+    width:32px;
+    height:32px;
+    border:1px solid #DCDCDC;
+    background: #fff;
+}
+.tr2 td:nth-child(3) button:hover{
+    border:1px solid #ff4883;
+    color:#ff4883;
+}
+.tr2 td:nth-child(5){
+    font-size:14px;
+    color: #FF668F;
+}
+
+.paper{
+    width:980px;
+    height:43px;
+    margin-top:10px;
+}
+.paper_in{
+    width:128px;
+    height:43px;
+    float:right;
+}
+.paper_in input{
+    cursor: pointer;
+    vertical-align: middle;
+}
+.paper_in span{
+    font-size:12px;
+}
+.paper_in span:nth-child(3){
+    color:#FF668F;
+    cursor: pointer;
+}
+.paper_in span:nth-child(4){
+    display: block;
+    margin-top:5px;
+}
+
+.key{
+    height:83px;
+    margin-top: 19px;
+    padding: 10px 0;
+    border-top: 1px solid #F0F0F0;
+    font-size: 12px;
+}
+.key_inner{
+    width:360px;
+    float: right;
+    padding: 8px 0;
+}
+.key_inner span{
+    display: block;
+    line-height: 25px;
+}
+.raw{
+    margin-top: 15px;
+}
+.raw input{
+    width:278px;
+    height:22px;
+}
+.raw a{
+    display: inline-block;
+    width: 72px;
+    height: 27px;
+    line-height: 25px;
+    background: #FE668F;
+    color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #E77D43;
+    border-radius: 0;
+    vertical-align: middle;
+}
+
+.affirm{
+    text-align: right;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    color: #585858;
+    padding: 33px 0;
+}
+.affirm span:nth-child(1){
+    font-size: 14px;
+}
+.affirm span:nth-child(2){
+    font-size:36px;
+    color:#FE668F;
+}
+.affirm2{
+    width:980px;
+    height:45px;
+    text-align: right;
+    line-height: 45px;
+}
+
+.affirm2 a{
+    display: block;
+    width: 130px;
+    height: 44px;
+    padding: 0;
+    line-height: 45px;
+    background: #fe8a4b;
+    color: #fff;
+    font-size: 26px;
+    border-bottom: 1px solid #e77c42;
+    text-align: center;
+    border-radius: 2px;
+    float:right;
+}
+
+
+/* footer */
+footer{
+    border-top: 5px solid #DBDBDB;
+    padding: 40px 0 20px;
+}
+.footer_re{
+    width: 980px;
+    margin: 0 auto;
+}
+.footer_inner{
+    color: #666;
+    margin-left:150px;
+}
+.footer_inner li{
+    float:left;
+}
+.footer_inner a{
+    display: inline-block;
+    color: #666;
+    cursor: pointer;
+}
+.footer_inner a:hover{
+    text-decoration: underline;
+}
+.footer_inner span{
+    display: inline-block;
+    margin: 0 12px;
+}
+.footer_inner i{
+    font-style:normal;
+}
+.ban{
+    color:#FE668F;
+    cursor: pointer;
+}
+.footer_don{
+    line-height: 40px;
+    margin-top: 27px;
+    text-align: center;
+}
+.footer_don a{
+     color: #999;
+}
+.footer_don span{
+    margin:0 5px;
+    color: #999;
+}
